@@ -1,4 +1,6 @@
-# cordova-plugin-facebook-connect
+# cordova-plugin-facebook4-no-zxing
+
+This is a fork from [jeduan/cordova-plugin-facebook4](https://github.com/jeduan/cordova-plugin-facebook4), where i excluded the `com.google.zxing` package (that is used by facebook sdk for qr scaning) that is causing the issue ["Multiple dex files define Lcom/google/zxing/BarcodeFormat"](https://github.com/phonegap/phonegap-plugin-barcodescanner/issues/535)
 
 > Use Facebook SDK in Cordova projects
 
