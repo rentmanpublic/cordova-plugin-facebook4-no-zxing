@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
         xmlns:android="http://schemas.android.com/apk/res/android"
-        id="cordova-plugin-facebook-connect"
+        id="cordova-plugin-facebook-connect-no-zxing"
         version="2.3.0">
 
     <name>Facebook Connect</name>
@@ -13,7 +13,7 @@
       Cordova application as you use in your web application.
     </description>
 
-    <repo>https://github.com/cordova-plugin-facebook-connect/cordova-plugin-facebook-connect</repo>
+    <repo>https://github.com/rentmanpublic/cordova-plugin-facebook4-no-zxing</repo>
 
     <license>Apache 2.0</license>
 
