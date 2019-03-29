@@ -20,7 +20,7 @@ See npm package for versions - https://www.npmjs.com/package/cordova-plugin-face
 Make sure you've registered your Facebook app with Facebook and have an `APP_ID` [https://developers.facebook.com/apps](https://developers.facebook.com/apps).
 
 ```bash
-$ cordova plugin add cordova-plugin-facebook-connect --save --variable APP_ID="123456789" --variable APP_NAME="myApplication"
+$ cordova plugin add cordova-plugin-facebook-connect-no-zxing --save --variable APP_ID="123456789" --variable APP_NAME="myApplication"
 ```
 
 As the `APP_NAME` is used as a string in XML files, if your app name contains any special characters like "&", make sure you escape them, e.g. "&amp;".
@@ -398,7 +398,7 @@ facebookConnectPlugin.setAutoLogAppEventsEnabled(true, function() {
 To disable collection of `advertiser-id`, please set the *FACEBOOK_ADVERTISER_ID_COLLECTION* variable to "false" (default is true).
 
 ```bash
-$ cordova plugin add cordova-plugin-facebook-connect --save --variable APP_ID="123456789" --variable APP_NAME="myApplication" --variable FACEBOOK_ADVERTISER_ID_COLLECTION="false"
+$ cordova plugin add cordova-plugin-facebook-connect-no-zxing --save --variable APP_ID="123456789" --variable APP_NAME="myApplication" --variable FACEBOOK_ADVERTISER_ID_COLLECTION="false"
 ```
 
 Then, re-enable collection by calling the `setAdvertiserIDCollectionEnabled` method and set it to true.
